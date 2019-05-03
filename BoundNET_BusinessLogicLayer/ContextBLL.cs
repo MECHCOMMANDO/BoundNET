@@ -8,7 +8,7 @@ using System.Data;
 
 namespace BoundNET_BusinessLogicLayer
 {
-   public class ContextBLL : IDisposable
+   public class ContextBLL : IDisposable 
    {
         #region Constructors/ Other Stuff
         private ContextDAL contextdal = new ContextDAL(); 
